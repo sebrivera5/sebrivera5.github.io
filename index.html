@@ -2,23 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sebastian Rivera</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sebastian's personal site on github">
-    <meta name="author" content="Sebastian Rivera">
-
-   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
 
 
   <style>
     body{
     
-    background: radial-gradient(at top left, rgb(255, 255, 255) 0%, rgb(114, 114, 114) 100%);
+    background: radial-gradient(at top left, rgb(255, 255, 255) 0%, rgb(22, 22, 22) 100%);
     background-repeat: no-repeat;
     }
     footer{
@@ -35,53 +33,42 @@
 
 
 
-  <body class="fixed-top-nav">
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <header>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
-
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link">Myself<span class="sr-only">(current)</span></a>
-              </li>
-              
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link">Projects</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand"></a>
         </div>
-      </nav>
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="projects.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-
-    </header>
-    </div>
-
+      <!-- Contents in the page-->
+      <h1 class="p1" style="font-size: 30px"><b>Sebastian Rivera</b></h1>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="./img/thaifood_cropped.jpg" width="300" height="300">
+				</div>
+				<div class="col-sm-4">
+					<img src="./img/messi.gif" width="300" height="300">
+				</div>
+				<div class="col-sm-4">
+					<img src="./img/sebcity_cropped.jpg" width="300" height="300">
+				</div>
+		   </div>      
 
   </body>
+
+   <!-- Footer -->    
+   <footer class="fixed-bottom">
+    <div class="container mt-0">
+      © Copyright 2023 Sebastian Rivera. Using GitHub Pages and Bootstrap.
+
+    </div>
+  </footer>
 </html>
