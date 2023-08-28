@@ -1,1 +1,3 @@
-Link to github repo: https://github.com/lesbaum/Privacy-Law-Technology-Project
+Link to law github repo: https://github.com/lesbaum/Privacy-Law-Technology-Project
+Link to skate site: https://skate-site.github.io/, https://github.com/skate-site/skate-site.github.io/tree/main
+5800: https://research-git.uiowa.edu/sonarqube/cs5800/spring2021/team_7/cs-5800-group-project.git
